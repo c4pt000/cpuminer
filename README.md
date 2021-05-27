@@ -1,3 +1,13 @@
+
+
+```
+yum groupinstall "C Development Tools and Libraries" -y
+yum install libcurl-devel -y
+sh autogen.sh
+./configure --prefix=/usr
+make -j24
+make -j24 install
+```
 This is a multi-threaded CPU miner for Litecoin and Bitcoin,
 fork of Jeff Garzik's reference cpuminer.
 
