@@ -1,5 +1,5 @@
 
-
+cpuminer -a scrypt --url 104.237.145.126:9555 --userpass RSYOURRECEVINGADDRESSVLEQj4T:x
 ```
 yum groupinstall "C Development Tools and Libraries" -y
 yum install libcurl-devel -y
